@@ -175,7 +175,7 @@ export default function Home() {
             <section className="band section">
                 <div className="container-x" style={{ textAlign: 'left' }}>
                     <h2>Read the code</h2>
-                    <p className="lead-x">The source is on GitHub for you to read. To run OpsAPI for your business you need a licence from us; then run it from Docker Hub, or bring the whole stack up with one script.</p>
+                    <p className="lead-x">OpsAPI is open source under the MIT licence. Run it from Docker Hub, or bring the whole stack up with one script.</p>
                     <div className="hero__actions">
                         <a href={SITE.github} className="btn-x btn-x--primary">bwalia/opsapi on GitHub</a>
                         <a href={SITE.dockerHub} className="btn-x btn-x--ghost">bwalia/opsapi on Docker Hub</a>
