@@ -56,6 +56,8 @@ export const FEATURE_GROUPS = [
             { name: 'Invoicing', flag: 'invoicing', text: 'Invoices, PDFs, payments and templates.' },
             { name: 'Accounting', flag: 'accounting', text: 'Bookkeeping, VAT returns and trial balance, with AI-assisted categorisation.' },
             { name: 'UK tax filing (HMRC MTD)', flag: 'tax_copilot', text: 'Bank statement extraction, AI classification and Making Tax Digital submission with anti-fraud headers.' },
+            { name: 'Payroll', flag: 'payroll', text: 'PAYE, National Insurance, student loans and statutory pay from versioned GOV.UK rate tables; pay runs with approval, payslips and ledger journals. The RTI return (FPS) is built against HMRC\u2019s schema; submission to HMRC is in development.' },
+            { name: 'Corporation Tax', flag: 'corporation_tax', text: 'Company year end: trial balance, AI-suggested adjustments a person accepts, capital allowances, losses, marginal relief and s455, with director approval and PDFs. CT600 filing to HMRC is in development.' },
             { name: 'Bank transactions', flag: 'bank_transactions', text: 'Import and track bank transactions.' },
             { name: 'Timesheets', flag: 'timesheets', text: 'Time entry and approval.' },
             { name: 'Kanban', flag: 'kanban', text: 'Projects, boards, sprints, epics, tasks, labels and time tracking.' },

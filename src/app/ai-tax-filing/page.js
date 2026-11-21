@@ -45,6 +45,15 @@ export default function AiTaxFilingPage() {
                         reading, the transaction classifier and HMRC Making Tax Digital filing.{' '}
                         <Link href="/features/">See the features</Link>.
                     </p>
+                    <div className="card-x" style={{ marginTop: '1.5rem' }}>
+                        <h3 style={{ marginTop: 0 }}>Are you an accountancy practice?</h3>
+                        <p>
+                            <strong>Daybook</strong> is the same tax engine packaged for UK practices: Income Tax and
+                            VAT under Making Tax Digital, with payroll and Corporation Tax in pilot, a live demo and
+                            recorded walkthroughs.
+                        </p>
+                        <a className="card-x__foot" href="https://daybook.co.uk/" target="_blank" rel="noopener">Go to daybook.co.uk →</a>
+                    </div>
                 </div>
             </section>
 
