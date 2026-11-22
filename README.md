@@ -45,4 +45,4 @@ no `basePath`; the edge adds the `/opsapi-website` prefix. This repo must stay
 
 ## Licence
 
-Copyright (c) 2024-2026 Balinder Singh Walia. All rights reserved. See [LICENSE](LICENSE).
+Copyright (c) 2000-2026 Balinder Singh Walia. All rights reserved. See [LICENSE](LICENSE). Copyright, licensing and permission enquiries: balinder.walia@gmail.com.

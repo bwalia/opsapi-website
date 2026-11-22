@@ -241,9 +241,8 @@ lapis exec "require('helper.project-migrator').migrate('<code>', '/app/projects/
                 <li>Don't mount plugins from a writable shared volume. Rebuild the image instead.</li>
             </ol>
             <p>
-                The full guide is <a href="https://github.com/bwalia/opsapi/blob/main/PLUGINS.md">PLUGINS.md</a>, and{' '}
-                <a href="https://github.com/bwalia/opsapi/tree/main/projects/helpdesk">projects/helpdesk</a> is a
-                complete example.
+                The full guide is <code>PLUGINS.md</code>, and <code>projects/helpdesk</code> is a complete example,
+                both in the OpsAPI source that comes with a licence.
             </p>
         </>
     );

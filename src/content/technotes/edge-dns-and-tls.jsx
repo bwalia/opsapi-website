@@ -201,10 +201,10 @@ opsapi.org      300  IN  CNAME  <edge hostname>.   ; apex: CNAME flattening`}</c
 
             <h2>opsapi.org: a static site behind the same edge</h2>
             <p>
-                This website is a Next.js static export published to GitHub Pages from the <code>website/</code> folder
-                of the <a href="https://github.com/bwalia/opsapi">bwalia/opsapi</a> repo. Pages has no custom domain
+                This website is a Next.js static export published to GitHub Pages from its own repository,{' '}
+                <a href="https://github.com/bwalia/opsapi-website">bwalia/opsapi-website</a>. Pages has no custom domain
                 configured. The edge owns <code>opsapi.org</code> and <code>www.opsapi.org</code>, terminates TLS, and
-                proxies to <code>https://bwalia.github.io/opsapi</code>, prefixing the repo path to every request.
+                proxies to <code>https://bwalia.github.io/opsapi-website</code>, prefixing the repo path to every request.
             </p>
             <Figure caption="Because the edge adds /opsapi to every path, the site is built without a basePath and its links stay root-relative." minWidth={700}>
                 <PagesBehindEdge />
