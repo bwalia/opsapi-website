@@ -76,7 +76,7 @@ export default function Home() {
                         </p>
                         <div className="hero__actions">
                             <Link href="/demo/" className="btn-x btn-x--primary">Try the live demo</Link>
-                            <a href={SITE.github} className="btn-x btn-x--ghost">View on GitHub</a>
+                            <a href={`mailto:${SITE.licensingEmail}`} className="btn-x btn-x--ghost">Ask about a licence</a>
                         </div>
                         <ul className="hero__chips" aria-label="Highlights">
                             <li>Lua in Nginx workers</li>
@@ -174,11 +174,11 @@ export default function Home() {
 
             <section className="band section">
                 <div className="container-x" style={{ textAlign: 'left' }}>
-                    <h2>Read the code</h2>
-                    <p className="lead-x">The source is on GitHub for you to read. To run OpsAPI for your business you need a licence from us; then run it from Docker Hub, or bring the whole stack up with one script.</p>
+                    <h2>Licensing</h2>
+                    <p className="lead-x">OpsAPI is proprietary software, licensed by agreement to run on your own servers or private cloud. With a licence you get the container images and the source, and you can bring the whole stack up with one script.</p>
                     <div className="hero__actions">
-                        <a href={SITE.github} className="btn-x btn-x--primary">bwalia/opsapi on GitHub</a>
-                        <a href={SITE.dockerHub} className="btn-x btn-x--ghost">bwalia/opsapi on Docker Hub</a>
+                        <a href={`mailto:${SITE.licensingEmail}`} className="btn-x btn-x--primary">Ask about a licence</a>
+                        <Link href="/demo/" className="btn-x btn-x--ghost">Try the live demo</Link>
                     </div>
                 </div>
             </section>

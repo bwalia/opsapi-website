@@ -15,7 +15,7 @@ export default function TechnotesPage() {
                     <h1 className="display-x">How OpsAPI works, drawn out</h1>
                     <p className="lead-x">
                         Diagram-first notes for developers, DevOps and SRE: the request path, tenancy, sign-in, modules,
-                        deployment and the edge. Each one is checked against the code on GitHub.
+                        deployment and the edge. Each one is checked against the code.
                     </p>
                 </div>
             </section>

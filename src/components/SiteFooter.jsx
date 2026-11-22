@@ -29,20 +29,17 @@ export default function SiteFooter() {
                         <ul>
                             <li><Link href="/technotes/">Technotes</Link></li>
                             <li><Link href="/blog/">Blog</Link></li>
-                            <li><a href={`${SITE.github}#readme`}>README</a></li>
                         </ul>
                     </div>
                     <div>
-                        <h4>Code</h4>
+                        <h4>Licensing</h4>
                         <ul>
-                            <li><a href={SITE.github}>GitHub</a></li>
-                            <li><a href={SITE.dockerHub}>Docker Hub</a></li>
-                            <li><a href={`${SITE.github}/tree/main/sdk/typescript`}>TypeScript SDK</a></li>
+                            <li><a href={`mailto:${SITE.licensingEmail}`}>{SITE.licensingEmail}</a></li>
                         </ul>
                     </div>
                 </div>
                 <div className="footer-base">
-                    © 2024–2026 Balinder Singh Walia. All rights reserved. Source visible on GitHub; use by licence agreement. Built and run by Workstation.
+                    © 2000–2026 Balinder Singh Walia. All rights reserved. OpsAPI is licensed by agreement. Built and run by Workstation.
                     <br />
                     Sponsored by <a href="https://www.workstation.co.uk/en" style={{ color: 'inherit', textDecoration: 'underline' }}>Workstation</a>.
                 </div>
