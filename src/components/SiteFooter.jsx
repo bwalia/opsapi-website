@@ -42,7 +42,7 @@ export default function SiteFooter() {
                     </div>
                 </div>
                 <div className="footer-base">
-                    © 2024–2026 Balinder Walia. Open source under the MIT licence. Built and run by Workstation.
+                    © 2024–2026 Balinder Singh Walia. All rights reserved. Source visible on GitHub; use by licence agreement. Built and run by Workstation.
                     <br />
                     Sponsored by <a href="https://www.workstation.co.uk/en" style={{ color: 'inherit', textDecoration: 'underline' }}>Workstation</a>.
                 </div>
