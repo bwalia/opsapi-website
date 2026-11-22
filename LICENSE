@@ -1,0 +1,12 @@
+Copyright (c) 2024-2026 Balinder Singh Walia. All rights reserved.
+
+This repository contains the source of the opsapi.org website. It is public so that
+GitHub Pages can serve it. Public visibility grants no licence: the text, design,
+images, brochures and code may not be copied, modified, republished or reused
+without written permission from Balinder Singh Walia.
+
+The OpsAPI software itself is licensed separately, under the licence agreement in
+the private bwalia/opsapi repository. Third-party packages installed at build time
+(Next.js, React, Bootstrap, Sass and others) keep their own licences.
+
+Licensing enquiries: bwalia@tenthmatrix.co.uk
